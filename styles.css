@@ -1,0 +1,42 @@
+body 
+  {
+    background-color: #765fea;
+  }
+  
+  h1 {
+    font-family: 'Press Start 2P', arial, serif;
+    text-align: left;
+    color: rgb(15, 15, 15);
+  }
+
+  h2{
+    font-family: 'Press Start 2P', arial, serif;
+    text-align: left;
+    color: rgb(15, 15, 15);
+  }
+  
+  h3{
+    font-family: 'Press Start 2P', arial, serif;
+    color: rgb(15, 15, 15);
+    margin-top: 1em;
+  }
+
+  p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    margin-bottom: 1em;
+    text-align: left;
+}
+ .Monhun {
+    position: absolute;
+    top: 280px;
+    right: 4px;
+    height: 200px;
+    animation: Mymon 5s infinite;
+ }
+  
+  @keyframes Mymon {
+    0% { top:280px ;right:0px ;}
+    100% { top: 280px; right: 400px;  }
+  }
